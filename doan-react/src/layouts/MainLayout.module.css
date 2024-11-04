@@ -1,0 +1,8 @@
+.hoverable {
+  cursor: default;
+}
+
+.hoverable:hover {
+  cursor: pointer;
+  background-color: rgba(218, 215, 215, 0.916);
+}

@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #38385C;
+  color: #FFEAAA;
+  padding: 0 16px;
+}
+
+.menu-button {
+  color: #FFEAAA;
+}
+
+.logo-button {
+  color: #FFEAAA;
+  border: none;
+  background: none;
+  font-size: 24px;
+  margin-right: 100px;
+  margin-bottom: 15px;
+}
+
+.hoverable {
+  cursor: default;
+}
+
+.hoverable:hover {
+  cursor: pointer;
+  background-color: rgba(218, 215, 215, 0.916);
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+  margin: 0;
+  color: #FFEAAA;
+  font-size: 24px;
+}
+
+.user-info {
+  display: flex;
+  align-items: right;
+}
+
+.layouts-container {
+  padding: 24px;
+}
+
+.layouts-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  height: 100%;
+  background-color: #38385C;
+  color: #FFEAAA;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.layouts-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.layouts-card .ant-card-meta-title {
+  color: #FFEAAA;
+}
+
+.layouts-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
